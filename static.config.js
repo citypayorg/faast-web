@@ -15,7 +15,7 @@ const { dirs, useHttps, siteRoot } = require('./etc/common.js')
 const getBaseConfig = require('./etc/webpack.config.base.js')
 const siteConfig = require('./src/site/config.js')
 
-const siteUrlProd = 'https://faa.st'
+const siteUrlProd = 'https://defi.citypat.org'
 
 const storageKey = process.env.STORAGE_KEY
 

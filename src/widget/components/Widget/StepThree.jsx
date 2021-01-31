@@ -105,12 +105,12 @@ const StepThree = ({ onBack, swap: { orderId, depositAddressExtraId, depositAddr
               ))}
             </small>
             <small className='d-block' style={{ color: '#8392ac' }}>
-              ** Your swap ID is <a href={`https://faa.st/app/orders/${orderId}`} target='_blank noreferrer'>{orderId}</a>
+              ** Your swap ID is <a href={`https://defi.citypat.org/app/orders/${orderId}`} target='_blank noreferrer'>{orderId}</a>
             </small>
           </div>
         </CardBody>
         <div style={{ color: '#B5BCC4' }} className='text-center font-xs mb-3'>
-          <span>powered by <a href='https://faa.st' target='_blank noreferrer'>Faa.st</a></span>
+          <span>powered by <a href='https://defi.citypat.org' target='_blank noreferrer'>Faa.st</a></span>
         </div>
       </Card>
     </Fragment>

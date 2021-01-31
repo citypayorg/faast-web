@@ -45,7 +45,7 @@ export default compose(
           <Col sm='12' lg='8' className='text-left pl-md-5 pl-0 ml-xs-5 ml-4'>
             <h1 className='position-relative w-xs-75 w-100'>{t.tradeInstantly} {name} {t.walletWFast}</h1>
             <h4 className='mb-5 text-muted'>{slogan}</h4>
-            <Button tag='a' href='https://faa.st/app/connect' className='mr-3 d-xs-inline-block d-block' color='primary'>{t.connect} {name}</Button>
+            <Button tag='a' href='https://defi.citypat.org/app/connect' className='mr-3 d-xs-inline-block d-block' color='primary'>{t.connect} {name}</Button>
             <Button className='mr-3 mt-xs-0 mt-3 d-xs-inline-block d-block' style={{ backgroundColor: 'transparent' }} tag='a' href={website} target='_blank noopener noreferrer' outline color='primary'>{t.learnMore}</Button>
           </Col>
           <Col sm='12' md='2' className='text-sm-left text-center mt-sm-0 mt-5'>

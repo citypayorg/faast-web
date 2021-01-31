@@ -33,7 +33,7 @@ export default compose(
             <ul className='list-inline'>
               <li className='list-inline-item mr-3'>
                 <small>
-                  <LangLink className='text-muted' to='https://faa.st'>
+                  <LangLink className='text-muted' to='https://defi.citypat.org'>
                     <T tag='span' i18nKey='app.footer.website'>Faa.st Website</T>
                   </LangLink>
                 </small>
@@ -51,12 +51,12 @@ export default compose(
                 </a></small>
               </li>
               <li className='list-inline-item mr-3'>
-                <small><a className='text-muted' href='https://faa.st/terms'>
+                <small><a className='text-muted' href='https://defi.citypat.org/terms'>
                   <T tag='span' i18nKey='app.footer.termsConditions'>Terms & Conditions</T>
                 </a></small>
               </li>
               <li className='list-inline-item'>
-                <small><a className='text-muted' href='https://faa.st/privacy'>
+                <small><a className='text-muted' href='https://defi.citypat.org/privacy'>
                   <T tag='span' i18nKey='app.footer.privacy'>Privacy Policy</T>
                 </a></small>
               </li>

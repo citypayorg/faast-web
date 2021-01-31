@@ -104,7 +104,7 @@ const SwapSubmit = ({
                 <Checkbox
                   label={
                     <T tag='small' i18nKey='app.swapSubmit.terms' className='pl-1 text-white'>I accept the 
-                      <a href='https://faa.st/terms' target='_blank' rel='noopener noreferrer'> Faast Terms & Conditions</a>
+                      <a href='https://defi.citypat.org/terms' target='_blank' rel='noopener noreferrer'> Faast Terms & Conditions</a>
                     </T>
                   }
                   labelClass='p-0'

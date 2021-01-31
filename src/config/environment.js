@@ -28,7 +28,7 @@ module.exports = {
   isIpfs,
   isMocking,
   siteRoot,
-  siteUrl: siteRoot || 'https://faa.st',
+  siteUrl: siteRoot || 'https://defi.citypat.org',
   apiUrl: process.env.API_URL || 'https://api.faa.st',
   logLevel: process.env.LOG_LEVEL || (isDev ? 'debug' : 'info'),
   auth0: {
@@ -36,6 +36,6 @@ module.exports = {
     clientId: DEPLOY_ENV == 'production' ? '6rTS34Q5qU8x7Tr6CKNPjFEJu0NJ7Xjf' : 'WUE4HYOZO4xIHoiGYAhDqw0txRuwvFsG',
     callbackUrl: isDev ? 'http://localhost:8080/app/makers/login/auth/callback' : `${siteRoot}/app/makers/login/auth/callback`,
     audience: DEPLOY_ENV == 'production' ? 'https://api.faa.st' : 'https://testapi.faa.st',
-    logoutURL: DEPLOY_ENV == 'production' ? 'https://faa.st/app/makers/login' : 'http://localhost:8080/app/makers/login',
+    logoutURL: DEPLOY_ENV == 'production' ? 'https://defi.citypat.org/app/makers/login' : 'http://localhost:8080/app/makers/login',
   }
 }

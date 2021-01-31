@@ -17,10 +17,10 @@
   "files": [
     "src/"
   ],
-  "homepage": "https://github.com/go-faast/faast-web#readme",
+  "homepage": "https://github.com/citypayorg/faast-web#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/go-faast/faast-web.git"
+    "url": "git+https://github.com/citypayorg/faast-web.git"
   },
   "scripts": {
     "start": "ws --config-file etc/lws.config.prod.js",

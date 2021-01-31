@@ -8,7 +8,7 @@ export default compose(
   <div>
     <div>
       <h5 className='font-weight-bold'>Terms</h5>
-      <p>By accessing the website at https://faa.st, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law. Faast is held by Faast Limited (2036919), a company incorporated in British Virgin Islands and having its registered address at Quijano Chambers, P.O. Box 5159, Road Town, Tortola, British Virgin Islands (hereinafter “Faast”)</p>
+      <p>By accessing the website at https://defi.citypat.org, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law. Faast is held by Faast Limited (2036919), a company incorporated in British Virgin Islands and having its registered address at Quijano Chambers, P.O. Box 5159, Road Town, Tortola, British Virgin Islands (hereinafter “Faast”)</p>
       <p className='font-weight-bold'>The risk of loss in trading or holding cryptocurrency can be substantial. You should therefore carefully consider whether trading or holding cryptocurrency is suitable for you in light of your financial condition.</p>
       <p>Updated: March 2020</p>
       <h5 className='font-weight-bold'>DEFINITIONS</h5>

@@ -6,7 +6,7 @@ const successResponse = () => ({ statusCode: 204 })
 const round = (v, dp) => { const n = Math.pow(10, dp); return Math.round(v * n) / n }
 const formatDuration = (seconds) => seconds > 60 ? `${round(seconds / 60, 1)}m` : `${seconds}s`
 
-const PROD_URL = 'https://faa.st'
+const PROD_URL = 'https://defi.citypat.org'
 const ONLY_CONTEXT = 'production'
 
 exports.handler = async (event) => {

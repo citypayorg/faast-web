@@ -16,7 +16,7 @@
 [context.production]
   [context.production.environment]
     DEPLOY_ENV = "production"
-    SITE_ROOT = "https://faa.st"
+    SITE_ROOT = "https://defi.citypat.org"
 
 [context.staging]
   [context.staging.environment]

@@ -22,7 +22,7 @@ const walletInformation = {
   mist: (
     <Fragment>
       <T tag='p' i18nKey='app.walletInfoModal.mist1'>{mist.name} is a desktop web browser with a built-in Ethereum wallet. You can get it <a href={mist.website}>here.</a></T>
-      <T tag='p' i18nKey='app.walletInfoModal.mist2'>If you already have {mist.name}, open <a href='https://faa.st/app'>faa.st</a> using its built in web browser.</T>
+      <T tag='p' i18nKey='app.walletInfoModal.mist2'>If you already have {mist.name}, open <a href='https://defi.citypat.org/app'>faa.st</a> using its built in web browser.</T>
     </Fragment>
   ),
   status: (
@@ -33,7 +33,7 @@ const walletInformation = {
           google='https://play.google.com/store/apps/details?id=im.status.ethereum'
           apple='https://testflight.apple.com/join/J8EuJmey'/>
       </div>
-      <T tag='p' i18nKey='app.walletInfoModal.status2'>If you already have {status.name}, open <a href='https://faa.st/app'>faa.st</a> using its built in web browser.</T>
+      <T tag='p' i18nKey='app.walletInfoModal.status2'>If you already have {status.name}, open <a href='https://defi.citypat.org/app'>faa.st</a> using its built in web browser.</T>
     </Fragment>
   ),
   coinbase: (
@@ -44,7 +44,7 @@ const walletInformation = {
           google='https://play.google.com/store/apps/details?id=org.toshi'
           apple='https://itunes.apple.com/app/coinbase-wallet/id1278383455?ls=1&amp;mt=8'/>
       </div>
-      <T tag='p' i18nKey='app.walletInfoModal.coinbase2'>If you already have {coinbase.name}, open <a href='https://faa.st/app'>faa.st</a> using its built in web browser.</T>
+      <T tag='p' i18nKey='app.walletInfoModal.coinbase2'>If you already have {coinbase.name}, open <a href='https://defi.citypat.org/app'>faa.st</a> using its built in web browser.</T>
     </Fragment>
   )
 }

@@ -37,7 +37,7 @@ export {
 
 TrezorConnect.manifest({
   email: 'dev@faa.st',
-  appUrl: 'https://faa.st/app',
+  appUrl: 'https://defi.citypat.org/app',
 })
 
 const requiredAddressFormats: { [symbol: string]: AddressFormat } = {

@@ -132,7 +132,7 @@ const SwapStepTwo = ({
             </GAEventButton>
           </CardBody>
           <div style={{ color: '#B5BCC4' }} className='text-center font-xs mb-3'>
-            <span>powered by <a href='https://faa.st' target='_blank noreferrer'>Faa.st</a></span>
+            <span>powered by <a href='https://defi.citypat.org' target='_blank noreferrer'>Faa.st</a></span>
           </div>
         </Card>
       </Form>

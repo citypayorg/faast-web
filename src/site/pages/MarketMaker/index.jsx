@@ -71,7 +71,7 @@ export default compose(
     },
     {
       q: 'Does Faa.st Monitor Transactions?',
-      a: <p>While Faa.st itself does not qualify as a virtual asset service provider (VASP), we take fraud very seriously. Faa.st actively collaborates with law enforcement when an appropriate request has been submitted. Furthermore, Faa.st has a <a href='https://faa.st/law-enforcement' target='_blank'>simple website law enforcement can use</a> to quickly search addresses to follow swaps across blockchains. Faa.st discourages the use of its platform as an anonymising service, and takes active precautions to prevent such use, in accordance to our <a href='https://faa.st/terms' target='_blank'>terms of use.</a></p>,
+      a: <p>While Faa.st itself does not qualify as a virtual asset service provider (VASP), we take fraud very seriously. Faa.st actively collaborates with law enforcement when an appropriate request has been submitted. Furthermore, Faa.st has a <a href='https://defi.citypat.org/law-enforcement' target='_blank'>simple website law enforcement can use</a> to quickly search addresses to follow swaps across blockchains. Faa.st discourages the use of its platform as an anonymising service, and takes active precautions to prevent such use, in accordance to our <a href='https://defi.citypat.org/terms' target='_blank'>terms of use.</a></p>,
     },
     {
       q: 'As a trader, how can I be sure that the maker fulfills the order?',

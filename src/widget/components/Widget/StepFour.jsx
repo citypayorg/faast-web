@@ -38,11 +38,11 @@ const StepFour = ({ swap, handleStartNewSwap, swap: { receiveSymbol } }) => {
             Start new swap
           </Button>
           <div className='text-center mt-3'>
-            <a href={`https://faa.st/app/orders/${swap.orderId}`} target='_blank noreferrer'>View your order on Faa.st</a>
+            <a href={`https://defi.citypat.org/app/orders/${swap.orderId}`} target='_blank noreferrer'>View your order on Faa.st</a>
           </div>
         </CardBody>
         <div style={{ color: '#B5BCC4' }} className='text-center font-xs mb-3'>
-          <span>powered by <a href='https://faa.st' target='_blank noreferrer'>Faa.st</a></span>
+          <span>powered by <a href='https://defi.citypat.org' target='_blank noreferrer'>Faa.st</a></span>
         </div>
       </Card>
     </Fragment>

@@ -254,7 +254,7 @@ const AssetDetailSwapWidget = ({
                   <Checkbox
                     label={
                       <T tag='small' i18nKey='app.widget.acceptTerms' className='pl-1 text-white'>I accept the 
-                        <a href='https://faa.st/terms' target='_blank' rel='noopener noreferrer'> Faa.st Terms & Conditions</a>
+                        <a href='https://defi.citypat.org/terms' target='_blank' rel='noopener noreferrer'> Faa.st Terms & Conditions</a>
                       </T>
                     }
                     labelClass='p-0'

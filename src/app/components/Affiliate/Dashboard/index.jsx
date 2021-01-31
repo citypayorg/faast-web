@@ -106,7 +106,7 @@ const AffiliateDashboard = ({ minimumWithdrawal, affiliateId, stats: { swaps_com
                           <p className={classNames('mt-0 mb-4', text)}>
                           Present this link to your users or social media audience and earn {config.affiliateSettings.affiliate_margin}% on each swap they complete:
                           </p>
-                          <Input className={classNames('flat', input)} value={`https://faa.st/swap?aid=${affiliateId}`} type='text' autoFocus readOnly/>
+                          <Input className={classNames('flat', input)} value={`https://defi.citypat.org/swap?aid=${affiliateId}`} type='text' autoFocus readOnly/>
                           <div className='text-center'>
                             <Button 
                               tag={Link} 
@@ -125,7 +125,7 @@ const AffiliateDashboard = ({ minimumWithdrawal, affiliateId, stats: { swaps_com
                           <p className={classNames('mt-0 mb-4', text)}>Provide swap support within your website or app and choose the fee you’ll earn on each transaction:</p>
                           <ul className='text-dark'>
                             <li><a href='https://api.faa.st' target='_blank noreferrer'>API Docs</a></li>
-                            <li><a href='https://faa.st/knowledge/article/how-to-integrate-faast-api' target='_blank noreferrer'>Integration Tutorial</a></li>
+                            <li><a href='https://defi.citypat.org/knowledge/article/how-to-integrate-faast-api' target='_blank noreferrer'>Integration Tutorial</a></li>
                           </ul>
                         </CardBody>
                       </Card>

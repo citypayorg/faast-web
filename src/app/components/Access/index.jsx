@@ -59,7 +59,7 @@ const Access = () => (
       </Col>
     </Row>
     <Button style={{ marginTop: '100px' }} color='ultra-dark'
-      tag='a' href='https://github.com/go-faast/faast-web'
+      tag='a' href='https://github.com/citypayorg/faast-web'
       target='_blank' rel='noopener noreferrer'>
       <i className='fa fa-github fa-2x align-middle'/>
       <T tag='span' i18nKey='app.connect.openSource' className='px-3'>open source and secure</T>

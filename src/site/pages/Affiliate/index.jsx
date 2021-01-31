@@ -93,7 +93,7 @@ export default compose(
                   className='btn btn-primary btn-lg hero-button py-2' 
                   color='primary'
                   role='button' 
-                  href='https://faa.st/app/affiliates/signup'>
+                  href='https://defi.citypat.org/app/affiliates/signup'>
                   {t.heroButton}
                 </Button> 
               )}
@@ -198,7 +198,7 @@ export default compose(
               <Col className='text-center'>
                 <p className='mb-5' style={{ fontSize: 18 }}>{t.referralDescription}</p>
                 <div className={style.input}>
-                  <p>https://faa.st/swap?aid=YOUR_AID_HERE <i className='fa fa-copy'></i></p>
+                  <p>https://defi.citypat.org/swap?aid=YOUR_AID_HERE <i className='fa fa-copy'></i></p>
                 </div>
               </Col>
               <Col className='text-center mt-5'>

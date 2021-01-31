@@ -54,7 +54,7 @@ const AffiliateSettings = ({ minimumWithdrawal, isModalOpen, toggleModalOpen, af
                 <hr className='w-100 border-light'/>
                 <Col sm='12'>
                   <small><p className={classNames('mb-1 font-weight-bold', text)}>Referral Link</p></small>
-                  <Input className={classNames('flat', input)} value={`https://faa.st/swap?aid=${affiliateId}`} type='text' autoFocus readOnly/>
+                  <Input className={classNames('flat', input)} value={`https://defi.citypat.org/swap?aid=${affiliateId}`} type='text' autoFocus readOnly/>
                   <small><p className={classNames('mt-1 mb-1', text)}>
                     Receive {config.affiliateSettings.affiliate_margin}% commission on any swap placed using this link.
                   </p></small>
@@ -67,7 +67,7 @@ const AffiliateSettings = ({ minimumWithdrawal, isModalOpen, toggleModalOpen, af
                   <small><p className={classNames('mb-2 mt-2', text)}>Embed code:</p></small>
                   <ClipboardCopyField 
                     className={classNames('flat mb-2', input)} 
-                    value={"<iframe src='https://faa.st/widget?from=BTC&to=ETH&affiliateId=" + affiliateId + '&affiliateMargin=' + affiliateMargin +  
+                    value={"<iframe src='https://defi.citypat.org/widget?from=BTC&to=ETH&affiliateId=" + affiliateId + '&affiliateMargin=' + affiliateMargin +  
                     "' style='height:100%;border:none;min-height:804px;maxWidth:540px;' />"}
                     type='text' 
                     successText='Embed code copied successfully!'

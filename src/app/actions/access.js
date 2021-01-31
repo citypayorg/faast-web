@@ -90,7 +90,7 @@ export const openWeb3Wallet = (selectedProvider, forwardUrl) => (dispatch) => {
           return
         } else {
           if (typeof window !== 'undefined') {
-            window.location.href = 'https://links.trustwalletapp.com/SBr41u7nVR?&event=openURL&url=https://faa.st/app/connect'
+            window.location.href = 'https://links.trustwalletapp.com/SBr41u7nVR?&event=openURL&url=https://defi.citypat.org/app/connect'
           }
         }
       }

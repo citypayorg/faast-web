@@ -141,7 +141,7 @@ const MakerSignupForm = ({ handleSubmit, randomNames, generateRandomNames, updat
         <Checkbox
           label={
             <T tag='small' i18nKey='app.widget.acceptTerm' className={classNames(text,'pl-1')}>I accept the 
-              <a href='https://faa.st/terms' target='_blank' rel='noopener noreferrer'> Faa.st Market Maker Terms & Conditions</a>
+              <a href='https://defi.citypat.org/terms' target='_blank' rel='noopener noreferrer'> Faa.st Market Maker Terms & Conditions</a>
             </T>
           }
           labelClass='p-0'
